@@ -184,6 +184,14 @@ body {
 }
 
 @media (max-width: 30rem) {
+  #product {
+    height: 82vh;
+    margin-top: 5vh;
+  }
+  .product__content--topic {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
   .product__content--title {
     font-size: 20px;
   }
