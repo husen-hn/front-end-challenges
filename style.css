@@ -1,0 +1,55 @@
+body {
+  background-color: #1b1b1b;
+}
+
+.title {
+  color: #eeeeee;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #424242;
+  padding: 10px;
+}
+
+.wrapper > div {
+  background-color: #6d6d6d;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.wrapper > div > a {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+
+.wrapper > div > a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.product-preview-card {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item5 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.item6 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
